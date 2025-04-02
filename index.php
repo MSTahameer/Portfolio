@@ -409,7 +409,7 @@ if(isset($_GET['redirect'])) {
 
 
 
-    <section class="hero">
+<!--     <section class="hero">
         <div class="hero-content">
             <div class="profile-container reveal active">
                 <img src="image.jpg" alt="M.S. Tahameer" class="profile-img">
@@ -420,7 +420,7 @@ if(isset($_GET['redirect'])) {
                 <p class="bio reveal active"> “Hackers rarely have full knowledge of the technology stack of a target.” — John McAfee</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Projects Section -->
     <section class="projects-section">
