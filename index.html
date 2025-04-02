@@ -1,3 +1,10 @@
+<?php
+if(isset($_GET['redirect'])) {
+    header("Location: https://imgs.search.brave.com/vnLDf3uKvDJa5cI7THDNMlLp7ge6KFiBclHfVkuMH5w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDg3ODk2/MzguanBn");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +13,25 @@
     <title>Tahameer | Cybersecurity Architect</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
+      /* Add these to your CSS */
+.profile-link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.name-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+
+
+
+
+
+
         :root {
             --primary: #00ff88;
             --secondary: #7df9ff;
@@ -362,6 +388,27 @@
     <div id="particles-js"></div>
     
     <!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <a href="?redirect=1" class="profile-link">
+            <div class="profile-container reveal active">
+                <img src="image.jpg" alt="M.S. Tahameer" class="profile-img">
+            </div>
+        </a>
+        <div class="hero-text">
+            <p class="tagline reveal active">Cyber Security Analyst</p>
+            <a href="?redirect=1" class="name-link">
+                <h1 class="name reveal active">M.S. Tahameer</h1>
+            </a>
+            <p class="bio reveal active">“Hackers rarely have full knowledge of the technology stack of a target.” — John McAfee</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
     <section class="hero">
         <div class="hero-content">
             <div class="profile-container reveal active">
